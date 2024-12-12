@@ -1,0 +1,12 @@
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\bin\Debug\net8.0\CryptoWatcher.Core.deps.json
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\bin\Debug\net8.0\CryptoWatcher.Core.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\bin\Debug\net8.0\CryptoWatcher.Core.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.AssemblyInfoInputs.cache
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.AssemblyInfo.cs
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.csproj.CoreCompileInputs.cache
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.sourcelink.json
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\refint\CryptoWatcher.Core.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\ref\CryptoWatcher.Core.dll

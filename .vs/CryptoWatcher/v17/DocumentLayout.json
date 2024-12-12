@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repositories\\CryptoWatcher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35FBA821-7D49-4A5B-856E-E20EEE3162AA}|CryptoWatcher.API\\CryptoWatcher.API.csproj|d:\\repositories\\cryptowatcher\\cryptowatcher.api\\cryptowatcher.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{35FBA821-7D49-4A5B-856E-E20EEE3162AA}|CryptoWatcher.API\\CryptoWatcher.API.csproj|solutionrelative:cryptowatcher.api\\cryptowatcher.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2AD278-4684-445F-BEB0-B9D3E2F2B3DC}|CryptoWatcher.Jobs\\CryptoWatcher.Jobs.csproj|d:\\repositories\\cryptowatcher\\cryptowatcher.jobs\\dataupsertjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2AD278-4684-445F-BEB0-B9D3E2F2B3DC}|CryptoWatcher.Jobs\\CryptoWatcher.Jobs.csproj|solutionrelative:cryptowatcher.jobs\\dataupsertjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3F5B08-5D1D-481B-8BFD-422D47B6728F}|CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj|d:\\repositories\\cryptowatcher\\cryptowatcher.infra\\cryptowatcher.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D3F5B08-5D1D-481B-8BFD-422D47B6728F}|CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj|solutionrelative:cryptowatcher.infra\\cryptowatcher.infra.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB30B70F-FF1C-4AD3-94BE-9EFD0828CF8A}|CryptoWatcher.Core\\CryptoWatcher.Core.csproj|d:\\repositories\\cryptowatcher\\cryptowatcher.core\\cryptowatcher.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB30B70F-FF1C-4AD3-94BE-9EFD0828CF8A}|CryptoWatcher.Core\\CryptoWatcher.Core.csproj|solutionrelative:cryptowatcher.core\\cryptowatcher.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35FBA821-7D49-4A5B-856E-E20EEE3162AA}|CryptoWatcher.API\\CryptoWatcher.API.csproj|d:\\repositories\\cryptowatcher\\cryptowatcher.api\\controllers\\cryptowatchercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35FBA821-7D49-4A5B-856E-E20EEE3162AA}|CryptoWatcher.API\\CryptoWatcher.API.csproj|solutionrelative:cryptowatcher.api\\controllers\\cryptowatchercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataUpsertJob.cs",
+              "DocumentMoniker": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Jobs\\DataUpsertJob.cs",
+              "RelativeDocumentMoniker": "CryptoWatcher.Jobs\\DataUpsertJob.cs",
+              "ToolTip": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Jobs\\DataUpsertJob.cs",
+              "RelativeToolTip": "CryptoWatcher.Jobs\\DataUpsertJob.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:28:07.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CryptoWatcher.Infra",
+              "DocumentMoniker": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj",
+              "RelativeDocumentMoniker": "CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj",
+              "ToolTip": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj",
+              "RelativeToolTip": "CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T02:23:11.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CryptoWatcher.Core",
+              "DocumentMoniker": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Core\\CryptoWatcher.Core.csproj",
+              "RelativeDocumentMoniker": "CryptoWatcher.Core\\CryptoWatcher.Core.csproj",
+              "ToolTip": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Core\\CryptoWatcher.Core.csproj",
+              "RelativeToolTip": "CryptoWatcher.Core\\CryptoWatcher.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-12T02:19:36.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CryptoWatcher.API.http",
+              "DocumentMoniker": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.API\\CryptoWatcher.API.http",
+              "RelativeDocumentMoniker": "CryptoWatcher.API\\CryptoWatcher.API.http",
+              "ToolTip": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.API\\CryptoWatcher.API.http",
+              "RelativeToolTip": "CryptoWatcher.API\\CryptoWatcher.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-12T02:17:52.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CryptoWatcherController.cs",
+              "DocumentMoniker": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.API\\Controllers\\CryptoWatcherController.cs",
+              "RelativeDocumentMoniker": "CryptoWatcher.API\\Controllers\\CryptoWatcherController.cs",
+              "ToolTip": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.API\\Controllers\\CryptoWatcherController.cs",
+              "RelativeToolTip": "CryptoWatcher.API\\Controllers\\CryptoWatcherController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T02:07:15.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

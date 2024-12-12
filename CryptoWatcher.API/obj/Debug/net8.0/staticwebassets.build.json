@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zIwgp3bEQ9jS1L8LxFID5xPVop/ezzXUINjqgoz7C8s=",
+  "Source": "CryptoWatcher.API",
+  "BasePath": "_content/CryptoWatcher.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

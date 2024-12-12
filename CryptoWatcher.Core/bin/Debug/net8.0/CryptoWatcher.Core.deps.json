@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CryptoWatcher.Core/1.0.0": {
+        "runtime": {
+          "CryptoWatcher.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CryptoWatcher.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
