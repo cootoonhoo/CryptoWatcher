@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5tjwIts3Xkc=",
+  "dgSpecHash": "g5gKwfdyBLM=",
   "success": true,
   "projectFilePath": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Core\\CryptoWatcher.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cooto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\cooto\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

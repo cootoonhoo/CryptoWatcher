@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoWatcher.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ef6265da5f548eb844ea2568fd709f8fa5ade4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8f111846d11a2d505ab7af877a6b0058504adf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoWatcher.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoWatcher.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

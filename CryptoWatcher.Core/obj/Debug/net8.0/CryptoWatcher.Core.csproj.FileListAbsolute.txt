@@ -10,3 +10,4 @@ D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.
 D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\refint\CryptoWatcher.Core.dll
 D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.pdb
 D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\ref\CryptoWatcher.Core.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Core\obj\Debug\net8.0\CryptoWatcher.Core.csproj.AssemblyReference.cache

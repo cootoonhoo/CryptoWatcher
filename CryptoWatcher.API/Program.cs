@@ -1,4 +1,8 @@
+using CryptoWatcher.Core.Interface;
+using CryptoWatcher.Core.Servicies;
+
 var builder = WebApplication.CreateBuilder(args);
+IConfiguration configuration = builder.Configuration;
 
 // Add services to the container.
 
@@ -6,6 +10,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<IExternalAPIService, ExtrenalAPIService>();
+builder.Services.AddScoped<IConfigurationService, ConfigurationService>();
+
 
 var app = builder.Build();
 
