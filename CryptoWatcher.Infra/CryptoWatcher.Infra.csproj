@@ -7,16 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CryptoWatcher.API\CryptoWatcher.API.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Hangfire" Version="1.8.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CryptoWatcher.Core\CryptoWatcher.Core.csproj" />
   </ItemGroup>
 
 </Project>

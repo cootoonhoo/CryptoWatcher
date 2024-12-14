@@ -9,6 +9,9 @@ namespace CryptoWatcher.Core.Entities
 {
     public class CryptoInfo
     {
+        [JsonIgnore]
+        public int Id { get; set; }
+
         [JsonPropertyName("symbol")]
         public string Symbol { get; set; }
 

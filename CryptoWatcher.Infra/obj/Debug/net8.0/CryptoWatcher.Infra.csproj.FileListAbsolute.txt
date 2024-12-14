@@ -1,0 +1,16 @@
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.csproj.AssemblyReference.cache
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.AssemblyInfoInputs.cache
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.AssemblyInfo.cs
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.csproj.CoreCompileInputs.cache
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.sourcelink.json
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\bin\Debug\net8.0\CryptoWatcher.Infra.deps.json
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\bin\Debug\net8.0\CryptoWatcher.Infra.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\bin\Debug\net8.0\CryptoWatcher.Infra.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\bin\Debug\net8.0\CryptoWatcher.Core.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\bin\Debug\net8.0\CryptoWatcher.Core.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWa.37531BB7.Up2Date
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\refint\CryptoWatcher.Infra.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\CryptoWatcher.Infra.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.Infra\obj\Debug\net8.0\ref\CryptoWatcher.Infra.dll
