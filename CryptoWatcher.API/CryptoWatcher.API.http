@@ -1,6 +1,0 @@
-@CryptoWatcher.API_HostAddress = http://localhost:5281
-
-GET {{CryptoWatcher.API_HostAddress}}/CryptoWatcher/
-Accept: application/json
-
-###

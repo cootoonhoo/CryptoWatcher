@@ -1,4 +1,4 @@
-﻿using CryptoWatcher.Core.Interface;
+﻿using CryptoWatcher.Core.Interface.Services;
 using Microsoft.Extensions.Configuration;
 
 namespace CryptoWatcher.Core.Servicies

@@ -10,5 +10,6 @@ namespace CryptoWatcher.Core.Entities
     {
         public int Id { get; set; }
         public string ProfileName { get; set; }
+        public ICollection<CryptoInfo> Cryptos { get; set; }
     }
 }

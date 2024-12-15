@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CryptoWatcher.Core.Interface
+namespace CryptoWatcher.Core.Interface.Services
 {
-    public interface IConfigurationService
+    public interface IProfileService
     {
-        public string GetBaseUrlAPI();
+        public bool Test();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using CryptoWatcher.Core.Entities;
 using CryptoWatcher.Core.Interface;
+using CryptoWatcher.Core.Interface.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;

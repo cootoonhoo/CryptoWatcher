@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoWatcher.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0185669ffec0e5d067aca5ff29d9708d51be571")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c027aedd2bf851c9dd0c78bee2885697d2f7a47")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoWatcher.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoWatcher.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

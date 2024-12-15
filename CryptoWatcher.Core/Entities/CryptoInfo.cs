@@ -17,5 +17,8 @@ namespace CryptoWatcher.Core.Entities
 
         [JsonPropertyName("price")]
         public string Price { get; set; }
+
+        [JsonIgnore]
+        public ICollection<Profile> Profiles { get; set; }
     }
 }
