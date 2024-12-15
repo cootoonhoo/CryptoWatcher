@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Zr5l712FQ48=",
+  "dgSpecHash": "Zp1LsM9FzNE=",
   "success": true,
   "projectFilePath": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Jobs\\CryptoWatcher.Jobs.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cooto\\.nuget\\packages\\hangfire.core\\1.8.17\\hangfire.core.1.8.17.nupkg.sha512",
+    "C:\\Users\\cooto\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\cooto\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\cooto\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,6 @@
+@CryptoWatcher.WorkerService_HostAddress = http://localhost:5248
+
+GET {{CryptoWatcher.WorkerService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

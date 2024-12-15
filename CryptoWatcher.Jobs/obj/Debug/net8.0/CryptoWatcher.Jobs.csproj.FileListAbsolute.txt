@@ -1,11 +1,15 @@
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\bin\Debug\net8.0\CryptoWatcher.Jobs.deps.json
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\bin\Debug\net8.0\CryptoWatcher.Jobs.dll
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\bin\Debug\net8.0\CryptoWatcher.Jobs.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\bin\Debug\net8.0\CryptoWatcher.Core.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\bin\Debug\net8.0\CryptoWatcher.Core.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.csproj.AssemblyReference.cache
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.AssemblyInfoInputs.cache
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.AssemblyInfo.cs
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.csproj.CoreCompileInputs.cache
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.sourcelink.json
+D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWa.392A9D82.Up2Date
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.dll
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\refint\CryptoWatcher.Jobs.dll
 D:\Repositories\CryptoWatcher\CryptoWatcher.Jobs\obj\Debug\net8.0\CryptoWatcher.Jobs.pdb

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Q7DoruoiHXeErrzgPkCMUo//UbTgJvGz1jtyguYR3sM=",
+  "Source": "CryptoWatcher.WorkerService",
+  "BasePath": "_content/CryptoWatcher.WorkerService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -27,13 +27,5 @@ namespace CryptoWatcher.API.Controllers
             CryptoInfo cryptoInfo = await _externalAPIService.GetCurrentPrice(symbol);
             return Ok(cryptoInfo);
         }
-
-        [HttpGet("Test", Name = "Test")]
-        public IActionResult GetTestEntity()
-        {
-            bool entityTest = _profileService.Test();
-            return Ok(entityTest);
-
-        }
     }
 }
