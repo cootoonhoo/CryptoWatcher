@@ -25,8 +25,8 @@ namespace CryptoWatcher.Jobs
         {
             if (entity == null)
                 return;
-
-            if (_profileRepository.Get(entity.Id) != null)
+            var x = (_profileRepository.GetByName(entity.ProfileName));
+            if (_profileRepository.GetByName(entity.ProfileName) != null)
             {
                 _backgroundJobClient.Enqueue(() => _profileRepository.Update(entity));
                 return;

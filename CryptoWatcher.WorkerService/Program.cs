@@ -56,4 +56,8 @@ app.MapControllers();
 
 app.UseHangfireDashboard();
 
+RecurringJob.AddOrUpdate<CryptoInfoJobService>(
+    job => job.UpdateCryptoCurrencyHourly(), Cron.Hourly
+    );
+
 app.Run();

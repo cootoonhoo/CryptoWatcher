@@ -23,6 +23,7 @@
 
   <ItemGroup>
 	  <ProjectReference Include="..\CryptoWatcher.Core\CryptoWatcher.Core.csproj" />
+	  <ProjectReference Include="..\CryptoWatcher.Jobs\CryptoWatcher.Jobs.csproj" />
   </ItemGroup>
 
 </Project>

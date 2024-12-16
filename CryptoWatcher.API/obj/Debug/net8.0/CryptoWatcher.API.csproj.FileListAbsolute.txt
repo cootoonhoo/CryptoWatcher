@@ -190,3 +190,5 @@ D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\refint\CryptoWa
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\CryptoWatcher.API.pdb
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\CryptoWatcher.API.genruntimeconfig.cache
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\ref\CryptoWatcher.API.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Jobs.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Jobs.pdb

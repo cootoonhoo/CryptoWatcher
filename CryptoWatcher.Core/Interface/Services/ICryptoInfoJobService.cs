@@ -9,6 +9,6 @@ namespace CryptoWatcher.Core.Interface.Services
 {
     public interface ICryptoInfoJobService : IBaseJobService<CryptoInfo>
     {
-        public void UpdateCryptoCurrencyHourly();
+        public Task UpdateCryptoCurrencyHourly();
     }
 }

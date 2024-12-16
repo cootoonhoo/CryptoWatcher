@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CryptoWatcher.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,9 @@ namespace CryptoWatcher.Core.Interface.Services
 {
     public interface IProfileService
     {
-        public bool Test();
+        public bool DeleteProfile(string profileName);
+        public Profile GetProfile(string profileName);
+        public Task<Profile> UpsertProfile(string profileName, List<string> cryptos);
+
     }
 }

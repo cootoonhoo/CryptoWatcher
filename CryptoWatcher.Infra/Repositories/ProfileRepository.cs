@@ -33,9 +33,12 @@ namespace CryptoWatcher.Infra.Repositories
         public List<Profile> GetAll() =>
             context.profiles.ToList();
 
+        public Profile GetByName(string name) =>
+            context.profiles.FirstOrDefault(x => x.ProfileName == name);
+
         public bool Save(Profile entity)
         {
-            if (context.profiles.Contains(entity))
+            if (context.profiles.Any(e => e.ProfileName == entity.ProfileName))
                 return false;
 
             context.profiles.Add(entity);
@@ -44,8 +47,8 @@ namespace CryptoWatcher.Infra.Repositories
 
         public bool Update(Profile entity)
         {
-            context.profiles.Update(entity);
-            return context.SaveChanges() > 0 ? true : false;
+            context.Entry(entity).CurrentValues.SetValues(entity);
+            return context.SaveChanges() > 0;
         }
     }
 }

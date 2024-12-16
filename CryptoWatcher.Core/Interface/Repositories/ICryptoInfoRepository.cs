@@ -9,6 +9,6 @@ namespace CryptoWatcher.Core.Interface.Repositories
 {
     public interface ICryptoInfoRepository : IBaseRepository<CryptoInfo>
     {
-
+        public CryptoInfo GetBySymbol(string symbol);
     }
 }

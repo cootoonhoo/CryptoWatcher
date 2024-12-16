@@ -10,12 +10,12 @@ namespace CryptoWatcher.Core.Servicies
         {
             _configuration = configuration;
         }
-        public string GetBaseUrlAPI()
-        {
-            string baseUrl = _configuration["ExternalApiUrl:BaseUrl"];
-            if (baseUrl == null)
-                throw new ArgumentNullException();
-            return baseUrl;
-        }
+
+        public string GetBaseInternalUrlAPI() =>
+            _configuration["ApiUrl:InternalJobAPI"];
+
+
+        public string GetBaseExternalUrlAPI() =>
+            _configuration["ApiUrl:BinanceApi"];
     }
 }

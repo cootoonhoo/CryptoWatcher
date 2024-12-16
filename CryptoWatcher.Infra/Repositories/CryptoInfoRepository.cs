@@ -26,6 +26,9 @@ namespace CryptoWatcher.Infra.Repositories
             return true;
         }
 
+        public CryptoInfo GetBySymbol(string symbol) =>
+            context.cryptosInfo.FirstOrDefault(x => x.Symbol == symbol);
+
         public CryptoInfo Get(int id) =>
             context.cryptosInfo.FirstOrDefault(x => x.Id == id);
 
@@ -35,7 +38,7 @@ namespace CryptoWatcher.Infra.Repositories
 
         public bool Save(CryptoInfo entity)
         {
-            if (context.cryptosInfo.Contains(entity))
+            if (context.cryptosInfo.Any(e => e.Symbol == entity.Symbol))
                 return false;
 
             context.cryptosInfo.Add(entity);
@@ -44,8 +47,8 @@ namespace CryptoWatcher.Infra.Repositories
 
         public bool Update(CryptoInfo entity)
         {
-            context.cryptosInfo.Update(entity);
-            return context.SaveChanges() > 0 ? true : false;
+            context.Entry(entity).CurrentValues.SetValues(entity);
+            return context.SaveChanges() > 0;
         }
     }
 }

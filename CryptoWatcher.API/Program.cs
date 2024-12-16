@@ -27,10 +27,9 @@ builder.Services.AddHttpClient();
 builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
 builder.Services.AddScoped<ICryptoInfoRepository, CryptoInfoRepository>();
 
-
-builder.Services.AddScoped<IExternalAPIService, ExtrenalAPIService>();
-builder.Services.AddScoped<IConfigurationService, ConfigurationService>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
+builder.Services.AddScoped<IExternalAPIService, ExtrenalAPIService>();
+builder.Services.AddScoped<IConfigurationService, ConfigurationService>(); 
 
 
 var app = builder.Build();

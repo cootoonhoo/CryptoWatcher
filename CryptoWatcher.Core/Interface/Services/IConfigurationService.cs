@@ -8,6 +8,8 @@ namespace CryptoWatcher.Core.Interface.Services
 {
     public interface IConfigurationService
     {
-        public string GetBaseUrlAPI();
+        public string GetBaseExternalUrlAPI();
+        public string GetBaseInternalUrlAPI();
+
     }
 }

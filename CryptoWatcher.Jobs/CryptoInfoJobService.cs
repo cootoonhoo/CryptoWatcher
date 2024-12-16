@@ -24,9 +24,8 @@ namespace CryptoWatcher.Jobs
             _backgroundJobClient = backgroundJobClient;
             _externalAPIService = externalAPIService;
         }
-        public async void UpdateCryptoCurrencyHourly()
+        public async Task UpdateCryptoCurrencyHourly()
         {
-            string multipleSymbol = String.Empty;
             List <CryptoInfo> cryptos = _cryptoInfoRepository.GetAll();
             CryptoInfo aux;
             foreach (CryptoInfo crypto in cryptos)
@@ -43,7 +42,7 @@ namespace CryptoWatcher.Jobs
             if (entity == null)
                 return;
 
-            if (_cryptoInfoRepository.Get(entity.Id) != null)
+            if (_cryptoInfoRepository.GetBySymbol(entity.Symbol) != null)
             {
                 _backgroundJobClient.Enqueue(() => _cryptoInfoRepository.Update(entity));
                 return;

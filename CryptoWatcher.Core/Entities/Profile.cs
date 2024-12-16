@@ -11,7 +11,9 @@ namespace CryptoWatcher.Core.Entities
     {
         [JsonIgnore]
         public int Id { get; set; }
+        [JsonPropertyName("profileName")]
         public string ProfileName { get; set; }
+        [JsonPropertyName("cryptos")]
         public ICollection<CryptoInfo>? Cryptos { get; set; }
     }
 }

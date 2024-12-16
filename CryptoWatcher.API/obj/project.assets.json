@@ -1893,6 +1893,20 @@
         "runtime": {
           "bin/placeholder/CryptoWatcher.Infra.dll": {}
         }
+      },
+      "CryptoWatcher.Jobs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CryptoWatcher.Core": "1.0.0",
+          "Hangfire.Core": "1.8.17"
+        },
+        "compile": {
+          "bin/placeholder/CryptoWatcher.Jobs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoWatcher.Jobs.dll": {}
+        }
       }
     }
   },
@@ -5592,12 +5606,18 @@
       "type": "project",
       "path": "../CryptoWatcher.Infra/CryptoWatcher.Infra.csproj",
       "msbuildProject": "../CryptoWatcher.Infra/CryptoWatcher.Infra.csproj"
+    },
+    "CryptoWatcher.Jobs/1.0.0": {
+      "type": "project",
+      "path": "../CryptoWatcher.Jobs/CryptoWatcher.Jobs.csproj",
+      "msbuildProject": "../CryptoWatcher.Jobs/CryptoWatcher.Jobs.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "CryptoWatcher.Core >= 1.0.0",
       "CryptoWatcher.Infra >= 1.0.0",
+      "CryptoWatcher.Jobs >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.0",
@@ -5643,6 +5663,9 @@
             },
             "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj": {
               "projectPath": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Infra\\CryptoWatcher.Infra.csproj"
+            },
+            "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Jobs\\CryptoWatcher.Jobs.csproj": {
+              "projectPath": "D:\\Repositories\\CryptoWatcher\\CryptoWatcher.Jobs\\CryptoWatcher.Jobs.csproj"
             }
           }
         }

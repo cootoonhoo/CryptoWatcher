@@ -9,5 +9,6 @@ namespace CryptoWatcher.Core.Interface.Repositories
 {
     public interface IProfileRepository : IBaseRepository<Profile>
     {
+        public Profile GetByName(string name);
     }
 }

@@ -22,14 +22,14 @@ namespace CryptoWatcher.WorkerService.Controllers
         public ActionResult<Profile> UpsertProfile(Profile profile)
         {
             _profileJobService.UpsertJob(profile);
-            return Ok("Job Scheduled");
+            return Ok(profile);
         }
 
         [HttpPost("UpsertCyptoInfo", Name = "UpsertCyptoInfo")]
         public ActionResult<CryptoInfo> UpsertCyptoInfo(CryptoInfo crypto)
         {
             _cryptoInfoJobService.UpsertJob(crypto);
-            return Ok("Job Scheduled");
+            return Ok(crypto);
         }
     }
 }
