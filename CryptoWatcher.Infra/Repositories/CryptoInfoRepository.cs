@@ -35,7 +35,7 @@ namespace CryptoWatcher.Infra.Repositories
 
         public bool Save(CryptoInfo entity)
         {
-            if (!context.cryptosInfo.Contains(entity))
+            if (context.cryptosInfo.Contains(entity))
                 return false;
 
             context.cryptosInfo.Add(entity);

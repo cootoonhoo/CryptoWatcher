@@ -1,5 +1,6 @@
 using CryptoWatcher.Core.Entities;
 using CryptoWatcher.Core.Interface;
+using CryptoWatcher.Core.Interface.Repositories;
 using CryptoWatcher.Core.Interface.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,12 +14,14 @@ namespace CryptoWatcher.API.Controllers
     {
         private readonly IExternalAPIService _externalAPIService;
         private readonly IProfileService _profileService;
+        private readonly ICryptoInfoRepository cryptoInfoRepository;
 
-        public CryptoWatcherController(IExternalAPIService externalAPIService, IProfileService profileService)
+
+        public CryptoWatcherController(IExternalAPIService externalAPIService, IProfileService profileService, ICryptoInfoRepository cryptoInfoRepository)
         {
             _externalAPIService = externalAPIService;
             _profileService = profileService;
-
+            this.cryptoInfoRepository = cryptoInfoRepository;
         }
 
         [HttpGet("CurrentPrice", Name = "GetCurrentPrice")]
