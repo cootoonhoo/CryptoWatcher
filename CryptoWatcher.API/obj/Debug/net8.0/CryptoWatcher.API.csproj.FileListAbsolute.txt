@@ -166,8 +166,10 @@ D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\runtimes\browse
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Core.dll
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Infra.dll
+D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Jobs.dll
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Infra.pdb
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Core.pdb
+D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Jobs.pdb
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\CryptoWatcher.API.csproj.AssemblyReference.cache
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\CryptoWatcher.API.GeneratedMSBuildEditorConfig.editorconfig
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\CryptoWatcher.API.AssemblyInfoInputs.cache
@@ -190,5 +192,3 @@ D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\refint\CryptoWa
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\CryptoWatcher.API.pdb
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\CryptoWatcher.API.genruntimeconfig.cache
 D:\Repositories\CryptoWatcher\CryptoWatcher.API\obj\Debug\net8.0\ref\CryptoWatcher.API.dll
-D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Jobs.dll
-D:\Repositories\CryptoWatcher\CryptoWatcher.API\bin\Debug\net8.0\CryptoWatcher.Jobs.pdb

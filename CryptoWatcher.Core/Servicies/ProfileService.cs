@@ -31,6 +31,9 @@ namespace CryptoWatcher.Core.Servicies
             return _profileRepository.Delete(entity);
         }
 
+        public List<Profile> GetAllProfiles() =>
+            _profileRepository.GetAll();
+
         public Profile GetProfile(string profileName) =>
             _profileRepository.GetByName(profileName);
 

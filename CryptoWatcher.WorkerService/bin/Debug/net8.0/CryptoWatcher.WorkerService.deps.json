@@ -726,7 +726,8 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "CryptoWatcher.Core/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
+          "Newtonsoft.Json": "11.0.1"
         },
         "runtime": {
           "CryptoWatcher.Core.dll": {}

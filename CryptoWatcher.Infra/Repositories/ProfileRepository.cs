@@ -1,6 +1,7 @@
 ﻿using CryptoWatcher.Core.Entities;
 using CryptoWatcher.Core.Interface.Repositories;
 using CryptoWatcher.Infra.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,11 +28,13 @@ namespace CryptoWatcher.Infra.Repositories
         }
 
         public Profile Get(int id) =>
-            context.profiles.FirstOrDefault(x => x.Id == id);
+            context.profiles.Include(p => p.Cryptos).FirstOrDefault(x => x.Id == id);
 
 
         public List<Profile> GetAll() =>
-            context.profiles.ToList();
+            context.profiles
+            .Include(p => p.Cryptos)
+            .ToList();
 
         public Profile GetByName(string name) =>
             context.profiles.FirstOrDefault(x => x.ProfileName == name);

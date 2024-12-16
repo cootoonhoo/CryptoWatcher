@@ -37,6 +37,14 @@ namespace CryptoWatcher.API.Controllers
             if (profile == null) return NotFound();
             return Ok(profile);
         }
+
+        [HttpGet("GetAllProfiles", Name = "GetAllProfiles")]
+        public ActionResult<List<Profile>> GetAllProfiles()
+        {
+            List<Profile> profile = _profileService.GetAllProfiles();
+            if (profile == null || profile.Count == 0) return NotFound();
+            return Ok(profile);
+        }
         [HttpPost("UpsertProfile", Name = "UpsertProfile")]
         public async Task<ActionResult<Profile>> UpsertProfile( string profileName, List<string> cryptoSymbols)
         {

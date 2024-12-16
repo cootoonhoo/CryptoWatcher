@@ -11,7 +11,10 @@ namespace CryptoWatcher.Core.Interface.Services
     {
         public bool DeleteProfile(string profileName);
         public Profile GetProfile(string profileName);
+        public List<Profile> GetAllProfiles();
+
         public Task<Profile> UpsertProfile(string profileName, List<string> cryptos);
+
 
     }
 }

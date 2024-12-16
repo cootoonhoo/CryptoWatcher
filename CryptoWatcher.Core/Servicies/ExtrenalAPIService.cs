@@ -52,7 +52,10 @@ namespace CryptoWatcher.Core.Servicies
 
         public async Task<Profile> UpsertProfile(Profile profile)
         {
+            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13;
+
             var content = new StringContent(JsonSerializer.Serialize(profile), Encoding.UTF8, "application/json");
+            var x = $"{_configurationService.GetBaseInternalUrlAPI()}/UpsertProfile";
             var response = await _httpClient.PostAsync($"{_configurationService.GetBaseInternalUrlAPI()}/UpsertProfile", content);
             response.EnsureSuccessStatusCode();
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace CryptoWatcher.Core.Entities
 {
     public class Profile
     {
-        [JsonIgnore]
+        [JsonProperty("id", NullValueHandling = NullValueHandling.Ignore)]
         public int Id { get; set; }
         [JsonPropertyName("profileName")]
         public string ProfileName { get; set; }
